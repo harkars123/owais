@@ -1,0 +1,148 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 50%; 
+    margin: 20px auto; 
+    border-top: 1px solid #ccc; 
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+p, a {
+    font-weight: 400;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.fas, .fab {
+    margin-right: 1px;
+    color: inherit; 
+}
+
+/* Adjusted for icon links to display as large circles */
+.icon-link {
+    display: inline-block;
+    margin: 0 10px;
+    width: 60px; /* Size of the circle */
+    height: 60px; /* Size of the circle */
+    border-radius: 50%; /* Makes it circular */
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    line-height: 60px; /* Smooth transition for hover effects */
+    text-align: center;
+}
+
+.email-icon {
+    background-color: #dd4b39; /* Email icon background color */
+}
+
+.linkedin-icon {
+    background-color: #0e76a8; /* LinkedIn icon background color */
+}
+
+.icon-link:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+    color: #fff; /* Keeps the icon color the same on hover */
+}
+
+header, footer {
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+
+ul li {
+    background: #f0f2f5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+    justify-content: flex-start; 
+}
+
+.form-group label {
+    flex: 0 0 80px; 
+    margin-right: 10px; 
+    text-align: right; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea ,{
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: auto;
+}
+
+form button {
+    width: calc(100% - 90px);
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #831bcd, #f9620b);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-image 0.3s ease;
+}
+
+form button:hover {
+    background-image: linear-gradient(to right, #f9620b, #831bcd);
+}
